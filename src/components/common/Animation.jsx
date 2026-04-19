@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import "./animation.css";
+import imgOne from "/src/assets/react.svg"
+import imgTwo from "/src/assets/nextjs.png"
+import imgThree from "/src/assets/tailwindcss.png"
+import imgFour from "/src/assets/bootstrap.png"
+import imgFive from "/src/assets/redux.png"
 
 const Animation = () => {
   const [text, setText] = useState("");
 
   const getIcon = () => {
-    if (text.includes("React")) return <img className="w-10 h-10 inline" src="/src/assets/react.svg" alt="react.svg" />;
+    if (text.includes("React")) return <img className="w-10 h-10 inline" src={imgOne} alt="react.svg" />;
     if (text.includes("Frontend")) return "💻";
-    if (text.includes("Next.js")) return <img className="w-10 h-10 inline" src="/src/assets/nextjs.png" alt="nextjs.png"/>;
-    if (text.includes("TailwindCss")) return <img className="w-10 h-10 inline" src="/src/assets/tailwindcss.png" alt="tailwindcss.png"/>;
-    if (text.includes("Bootstrap")) return <img className="w-10 h-10 inline" src="/src/assets/bootstrap.png" alt="bootstrap.png"/>;
-    if (text.includes("Redux")) return <img className="w-10 h-10 inline" src="/src/assets/redux.png" alt="redux.png"/>;
+    if (text.includes("Next.js")) return <img className="w-10 h-10 inline" src={imgTwo} alt="nextjs.png"/>;
+    if (text.includes("TailwindCss")) return <img className="w-10 h-10 inline" src={imgThree} alt="tailwindcss.png"/>;
+    if (text.includes("Bootstrap")) return <img className="w-10 h-10 inline" src={imgFour} alt="bootstrap.png"/>;
+    if (text.includes("Redux")) return <img className="w-10 h-10 inline"src={imgFive} alt="redux.png"/>;
 
     return <img className="w-10 h-10 inline" src="/src/assets/js.png" alt="js.png"/>;
   };
