@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ThemeToggle from "../common/ThemeToggle";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
-import logo from "/src/assets/logo.png"
+import { Link, NavLink } from "react-router-dom";
+import logo from "/src/assets/logo.png";
 
 const Header = ({ darkMode, toggleDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -47,11 +47,12 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           </NavLink>
         </div>
 
-        
         <div className="flex gap-x-6 items-center">
-          <div className="hidden md:block py-[12px] px-[25px] bg-fuchsia-600 text-[18px] font-bold hover:bg-transparent hover:border hover:border-fuchsia-600 hover:text-fuchsia-600 rounded-2xl hover:scale-105 duration-300">
-            Hire Me
-          </div>
+          <Link to={"/contact"}>
+            <div className="hidden md:block py-[12px] px-[25px] bg-fuchsia-600 text-[18px] font-bold hover:bg-transparent hover:border hover:border-fuchsia-600 hover:text-fuchsia-600 rounded-2xl hover:scale-105 duration-300">
+              Hire Me
+            </div>
+          </Link>
 
           <ThemeToggle darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
@@ -97,10 +98,11 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           >
             Contact
           </NavLink>
-
-          <div className="mt-3 py-[12px] px-[25px] bg-fuchsia-600 text-white font-bold hover:bg-transparent hover:border hover:border-fuchsia-600 hover:text-fuchsia-600  hover:scale-105 duration-300 rounded-xl">
-            Hire Me
-          </div>
+          <Link to={"/contact"}>
+            <div className="mt-3 py-[12px] px-[25px] bg-fuchsia-600 text-white font-bold hover:bg-transparent hover:border hover:border-fuchsia-600 hover:text-fuchsia-600  hover:scale-105 duration-300 rounded-xl">
+              Hire Me
+            </div>
+          </Link>
         </div>
       )}
     </header>
