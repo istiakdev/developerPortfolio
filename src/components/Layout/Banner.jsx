@@ -7,8 +7,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MdOutgoingMail } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
+import profileImg from "../../assets/Istiak.png"
 
-const Banner = () => {
+const Banner = ({}) => {
   return (
     <section className="relative min-h-screen overflow-hidden pt-28 md:pt-46 lg:pt-56 pb-12">
       {/* Background Animation */}
@@ -100,8 +101,8 @@ const Banner = () => {
             <div data-aos="zoom-in"className="flex justify-center order-1 lg:order-2 bannerImg">
               <img 
                 className="w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[340px] md:h-[340px] lg:w-[400px] lg:h-[400px] object-cover border-4 border-fuchsia-600  shadow-[0_0_20px_rgba(217,70,239,0.5)] hover:shadow-[0_0_35px_rgba(217,70,239,0.7)] rounded-full"
-                src="/src/assets/Istiak.png"
-                alt="Istiak.png"
+                src={profileImg}
+                alt="Istiak"
               />
             </div>
 

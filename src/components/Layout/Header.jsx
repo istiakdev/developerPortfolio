@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ThemeToggle from "../common/ThemeToggle";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from "/src/assets/logo.png"
 
 const Header = ({ darkMode, toggleDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
       <nav className="max-w-[1210px] mx-auto flex justify-between items-center px-5 py-3 rounded-2xl bg-white/10 dark:bg-black/30 backdrop-blur-xl shadow-2xl border border-white/20">
         <NavLink to="/">
           <div className="font-bold flex items-center gap-x-2 text-lg dark:text-white">
-            <img src="/src/assets/logo.png" alt="logo.png" />
+            <img src={logo} alt="logo.png" />
             <h1 className="font-bold text-3xl">
               ISTI<span className="text-fuchsia-600">A</span>K
             </h1>
