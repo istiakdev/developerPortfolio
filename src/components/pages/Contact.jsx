@@ -106,7 +106,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-gray-600 font-bold text-sm">LINKEDIN</h3>
                   <h4 className="font-bold text-sm group-hover:text-purple-600">
-                    istiakahmed346
+                    theistiakahmed
                   </h4>
                 </div>
               </div>
