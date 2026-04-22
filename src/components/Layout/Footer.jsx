@@ -59,13 +59,13 @@ const Footer = () => {
             <a
             href="https://github.com/theistiakahmed"
               target="_blank"
-              href="https://github.com/theistiakahmed"
+              rel="noopener noreferrer"
               className="hover:text-fuchsia-600 transition duration-300 hover:scale-125"
             >
               <FaGithub />
             </a>
             <a
-              href="https://github.com/theistiakahmed"
+              href="https://www.linkedin.com/in/theistiakahmed/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-fuchsia-600 transition duration-300 hover:scale-125"

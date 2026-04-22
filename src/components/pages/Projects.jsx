@@ -32,8 +32,8 @@ const Projects = () => {
               img={img1}
               title="Life Time Gaming Experience"
               desc="A Gaming Base platform Built With TailwindCss"
-              liveLink="https://istiakdev.github.io/Responsive_Portfolio/"
-              githubLink="https://github.com/istiakdev/Responsive_Portfolio"
+              liveLink="https://theistiakahmed.github.io/Responsive_Portfolio/"
+              githubLink="https://github.com/theistiakahmed/Responsive_Portfolio"
             />
           </div>
 
@@ -42,8 +42,8 @@ const Projects = () => {
               img={img2}
               title="Play Game For Fun"
               desc="A Simple Gaming Site Built With Js"
-              liveLink="https://istiakdev.github.io/FunGameWithJs/"
-              githubLink="https://github.com/istiakdev/FunGameWithJs"
+              liveLink="https://theistiakahmed.github.io/FunGameWithJs/"
+              githubLink="https://github.com/theistiakahmed/FunGameWithJs"
             />
           </div>
 
@@ -53,7 +53,7 @@ const Projects = () => {
               title="E-commerce Platform"
               desc="An E-commerce Platform Built with React.js & Redux"
               liveLink="https://orbi-e-com.vercel.app/"
-              githubLink="https://github.com/istiakdev/Responsive_Portfolio"
+              githubLink="https://github.com/theistiakahmed/Responsive_Portfolio"
             />
           </div>
 
@@ -62,8 +62,8 @@ const Projects = () => {
               img={img4}
               title="Design Agency Site"
               desc="A Design Base platform built with Bootstrap & AOS Js"
-              liveLink="https://istiakdev.github.io/Bootstrap-project/"
-              githubLink="https://github.com/istiakdev/Bootstrap-project"
+              liveLink="https://theistiakahmed.github.io/Bootstrap-project/"
+              githubLink="https://github.com/theistiakahmed/Bootstrap-project"
             />
           </div>
 
@@ -72,8 +72,8 @@ const Projects = () => {
               img={img5}
               title="Demo Wallet App"
               desc="A Simple Wallet App Built with Daisyui & Js"
-              liveLink="https://istiakdev.github.io/Bootstrap-project/"
-              githubLink="https://github.com/istiakdev/Bootstrap-project"
+              liveLink="https://theistiakahmed.github.io/Bootstrap-project/"
+              githubLink="https://github.com/theistiakahmed/Bootstrap-project"
             />
           </div>
 
@@ -83,7 +83,7 @@ const Projects = () => {
               title="Digital Marketing Agency"
               desc="Digital Marketing Agency Platform Built With React.js"
               liveLink="https://react-routing-topaz-eight.vercel.app/"
-              githubLink="https://github.com/istiakdev/DemoSimpleBkash"
+              githubLink="https://github.com/theistiakahmed/DemoSimpleBkash"
             />
           </div>
         </Flex>
