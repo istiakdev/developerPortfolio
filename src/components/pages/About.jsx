@@ -48,7 +48,7 @@ const About = () => {
 
           <div className="pt-[30px] flex flex-col lg:flex-row gap-10">
             <div className="w-full lg:w-1/2">
-              <h3 className="text-[#757575] text-[18px] font-normal text-center md:text-start p-4 lg:p-8">
+              <h3 className="text-[#757575] text-[18px] font-normal text-center md:text-start  lg:py-8">
                 Hi, I'm a passionate{" "}
                 <span className="text-black dark:text-white font-bold text-[20px] border-b-2 border-gray-500 ">
                   Frontend Developer
@@ -101,8 +101,8 @@ const About = () => {
               </Flex>
             </div>
 
-            {/* RIGHT SIDE */}
-            <div className="w-full lg:w-1/2">
+            
+            <div className="w-[80%] m-auto lg:w-1/2">
 
   <div data-aos="fade-down" className="mt-6 lg:mt-10 p-4 sm:p-6 rounded-2xl border border-gray-200 dark:border-gray-700 shadow-md bg-white dark:bg-[#111]
   hover:shadow-[0_0_30px_rgba(168,85,247,0.25)] transition-all duration-300">
@@ -110,22 +110,22 @@ const About = () => {
     <ul className="space-y-2 sm:space-y-3 text-[14px] sm:text-[16px] text-gray-700 dark:text-gray-300">
 
       {[
-        "Build responsive and modern websites for all devices",
-        "Create fast and scalable React.js / Next.js applications",
-        "Develop clean, interactive, and user-friendly UI/UX",
-        "Convert Figma / PSD designs into pixel-perfect websites",
-        "Optimize website speed, SEO, and performance",
-        "Build reusable components and clean code architecture",
-        "Integrate REST APIs and dynamic data systems",
-        "Create animations and smooth interactions",
-        "Develop eCommerce, Dashboard, Portfolio, Landing Pages",
-        "Deploy websites on Vercel, Netlify, and cloud platforms",
+        "Build responsive and modern websites for all devices.",
+        "Create fast and scalable React.js / Next.js applications.",
+        "Develop clean, interactive, and user-friendly UI/UX.",
+        "Convert Figma / PSD designs into pixel-perfect websites.",
+        "Optimize website speed, SEO, and performance.",
+        "Build reusable components and clean code architecture.",
+        "Integrate REST APIs and dynamic data systems.",
+        "Create animations and smooth interactions.",
+        "Develop eCommerce, Dashboard, Portfolio, Landing Pages.",
+        "Deploy websites on Vercel, Netlify, and cloud platforms.",
       ].map((item, i) => (
         <li key={i} className="flex gap-2 items-start leading-relaxed">
 
           <span className="text-fuchsia-600 mt-[2px]">✔</span>
 
-          <span className="text-[14px] sm:text-[16px]">
+          <span className="text-[14px] text-start sm:text-[16px]">
             {item}
           </span>
 

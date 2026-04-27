@@ -10,7 +10,7 @@ import Container from "../common/Container";
 
 const Projects = () => {
   return (
-    <article className="shadow-2xl py-[80px] md:py-[130px]">
+    <article className=" py-[110px] md:py-[130px]">
       <Container>
         <div className="pb-12 md:pb-20 text-center">
           <h3 className="inline-block relative font-extrabold text-[28px] sm:text-[40px] md:text-[48px]">
@@ -24,7 +24,7 @@ const Projects = () => {
 
         <Flex
           className={
-            "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center"
+            "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-8 place-items-center"
           }
         >
           <div className="w-full max-w-sm bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden border border-fuchsia-600 shadow-fuchsia-600/40 hover:shadow-fuchsia-600/70 hover:scale-105 transition-all duration-300">
@@ -61,7 +61,7 @@ const Projects = () => {
             <ProjectCard
               img={img4}
               title="Design Agency Site"
-              desc="A Design Base platform built with Bootstrap & AOS Js"
+              desc="A Design Base platform built with Bootstrap & AOS"
               liveLink="https://theistiakahmed.github.io/Bootstrap-project/"
               githubLink="https://github.com/theistiakahmed/Bootstrap-project"
             />

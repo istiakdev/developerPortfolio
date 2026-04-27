@@ -79,7 +79,7 @@ const Contact = () => {
     <article className="shadow-2xl pb-[80px] overflow-hidden">
       <Container>
         <Flex className="pt-[110px] md:pt-[130px] flex-col lg:flex-row gap-10">
-          <div className="w-full lg:w-1/2" data-aos="fade-right">
+          <div className="w-full lg:w-1/2  px-10 md:px-0" data-aos="fade-right">
             <h3 className="font-extrabold text-center md:text-start text-[36px] md:text-[48px]">
               Let's{" "}
               <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
@@ -111,9 +111,10 @@ const Contact = () => {
                 </div>
               </div>
             </a>
-
             <a
-              href="mailto:istiakahmed346@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=istiakahmed346@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block group w-full mt-5"
             >
               <div className="flex gap-4 items-center">
@@ -147,7 +148,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="w-full lg:w-1/2">
+          <div className="w-[80%] lg:w-1/2">
             <div className="relative p-6 rounded-3xl bg-[#0f0f0f] border border-gray-800 shadow-[0_0_40px_rgba(192,38,211,0.15)] overflow-hidden">
               <div className="absolute inset-0 opacity-20 blur-2xl bg-fuchsia-600 rounded-3xl -z-10"></div>
 

@@ -23,7 +23,7 @@ const Animation = () => {
   };
 
   return (
-    <h1 className="title">
+    <h1 className="title text-[25px] sm:text-[32px]">
       <Typewriter
         words={[
           "a Technology Engineer",
